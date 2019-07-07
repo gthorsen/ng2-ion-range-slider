@@ -1,7 +1,7 @@
 {
-  "name": "ng2-ion-range-slider",
-  "version": "2.0.0",
-  "description": "Ion Range Slider for Angular",
+  "name": "ng-ion-range-slider",
+  "version": "2.0.1",
+  "description": "Ion Range Slider for Angular - Forked version for packaged version of most recent commits",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PhilippStein/ng2-ion-range-slider.git"
+    "url": "git+https://github.com/gthorsen/ng2-ion-range-slider.git"
   },
   "keywords": [
     "Angular",
@@ -21,9 +21,9 @@
   "author": "git@philipp-stein.de",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/PhilippStein/ng2-ion-range-slider/issues"
+    "url": "https://github.com/gthorsen/ng2-ion-range-slider/issues"
   },
-  "homepage": "https://github.com/PhilippStein/ng2-ion-range-slider#readme",
+  "homepage": "https://github.com/gthorsen/ng2-ion-range-slider#readme",
   "devDependencies": {
     "@angular/common": "^2.4.4",
     "@angular/compiler": "^2.4.4",
