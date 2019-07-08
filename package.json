@@ -1,12 +1,12 @@
 {
   "name": "gt-ion-range-slider",
-  "version": "2.0.5",
+  "version": "2.0.7",
   "description": "Ion Range Slider for Angular - Forked version for packaged version of most recent commits",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
     "watch": "tsc -p src -w",
-    "ngc-build": "rm -rf lib && rm -f *.tgz && \"node_modules/.bin/ngc\" -p tsconfig.json"
+    "ngc-build": "node_modules/.bin/ngc -p tsconfig.json"
   },
   "repository": {
     "type": "git",
@@ -25,15 +25,15 @@
   },
   "homepage": "https://github.com/gthorsen/ng2-ion-range-slider#readme",
   "devDependencies": {
-    "@angular/common": "^2.4.4",
-    "@angular/compiler": "^2.4.4",
-    "@angular/compiler-cli": "^2.4.4",
-    "@angular/core": "^2.4.4",
+    "@angular/common": "^5.0.0",
+    "@angular/compiler": "^5.0.0",
+    "@angular/compiler-cli": "^5.0.0",
+    "@angular/core": "^5.0.0",
     "@types/core-js": "^0.9.41",
     "typescript": "^3.6.0-dev.20190704"
   },
   "peerDependencies": {
-    "@angular/core": ">=2.4.4"
+    "@angular/core": ">=5.0.0"
   },
   "dependencies": {
     "@types/jquery": "^2.0.40",
